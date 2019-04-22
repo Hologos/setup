@@ -1,0 +1,24 @@
+#! /usr/bin/env bash
+
+echo "Preparing"
+
+echo "› loading libraries"
+. "libs/helpers.sh"
+
+echo
+echo "Setting up the machine"
+
+echo "› creating directories"
+. "directories.sh"
+
+echo "› creating symlinks"
+. "symlinks.sh"
+
+# echo "› installing brew packages"
+# . "brew-list.sh"
+
+# echo "› installing brew casks"
+# . "brew-cask-list.sh"
+
+echo "› "
+echo "› "

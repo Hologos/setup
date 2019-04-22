@@ -1,0 +1,4 @@
+---
+items:
+  - repo: https://github.com/tmux-plugins/tpm
+    location: "${HOME}/.tmux/plugins/tpm"
